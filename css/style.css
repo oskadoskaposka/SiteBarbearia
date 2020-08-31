@@ -1,41 +1,47 @@
-body {
-}
 
+/* coloca uma margem interna apenas na classe titulo principal para que fique espaçado pela esquerda */
 .titulo-principal {
     padding-left: 20px;
-
 }
 
+/* colocando como plano de fundo uma cor cinza apnas na classe .principal e adiciona uma margem interna em todo o conteudo dessa classe*/
 .principal {
     background: #CCCCCC;
     padding: 30px
 }
 
+/* define que a imagem deve ocupar 100% da largura da tela */
 #banner {
     width: 100%;
 }
 
+/* define que o texto da classe titulo secundario deve ficar centralizado */
 .titulo-secundario {
     text-align: center;
 }
 
+/* defique que todos os paragrafos devem ficar centralizados */
 p {
     text-align: center;
 }
 
+/* os itens que estiverem classificados com o id missao terao como tamanho 20px */
 #missao {
     font-size: 20px
 }
 
+/*  os itens que estiverem dentro das tags strong que estiverem dentro das tags em terão como cor o vermelho */
 em strong {
     color: #ff0000;
 }
 
+/* os itens que estiverem dentro da classe beneficios terao o fundo da tela branco e um espaçamento interno de 20px */
 .beneficios {
     background: #FFFFFF;
     padding: 20px;
 }
 
+/* a lista nao ordenada, serao alinhada no topo, com espaçamento a direita de 15%, ocupando 20% da tela e será exibido em inline block, que permite que itens fiquem em lista e ao lado um do outro */
 ul {
     display: inline-block;
     vertical-align: top;
@@ -43,11 +49,13 @@ ul {
     padding-right: 15%;
 }
 
+/* os itens da classe itens, serao formatados em italico */
 .itens {
     font-style: italic;
 
 }
 
+/* a imagem ocupara 50% da tela */
 .imgBeneficios {
     width: 50%;
 }

@@ -3,18 +3,24 @@ header {
     padding: 20px;
 }
 
+/* usando o position absolute, podemos alterar a localização dos itens que estiverem dentro da tag nav, dessa forma definimos que os itens ficarao no top 100 e right 0 */
 nav {
     position: absolute;
     top: 100px;
     right: 0px;
 }
 
+/* usando o position relative, podemos definir a posicao como em relação a algum item, no caso usa o item que esta em posição absoluta. 
+o campo margin é usado para definir uma borda externa e nesse caso o auto foi para identificar automaticamente a largura da pagina e completar, colocando o conteudo do site
+na metade da tela */
 .caixa {
     position: relative;
     width: 940px;
     margin: 0 auto;
 }
 
+
+/* o text decoration serve para retirar dos links o sublinhado que vem por padrao do navegador. o text transform é usado para definir os itens como maiusculas e por fim o font-weight serve para definir o peso do texto, ou seja, para dar enfase ao texto */
 nav a{
     text-decoration: none;
     font-size: 22px;
@@ -23,6 +29,7 @@ nav a{
     font-weight: bold;
 }
 
+/* o display inline é usado aqui para deixar a lista com os itens um ao lado do outro. o margin é usado para afastar um do outro e sempre começa pelo topo e anda em clockwise, sendo top, left, bottom, right */
 nav ul li{
     display: inline;
     margin: 0 0 0 25px;
