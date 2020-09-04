@@ -29,6 +29,11 @@ nav a{
     font-weight: bold;
 }
 
+nav a:hover{
+    color: #c79c18;
+    text-decoration: underline;
+}
+
 /* o display inline é usado aqui para deixar a lista com os itens um ao lado do outro. o margin é usado para afastar um do outro e sempre começa pelo topo e anda em clockwise, sendo top, left, bottom, right */
 nav ul li{
     display: inline;
@@ -51,6 +56,18 @@ nav ul li{
     margin: 1.5%;
     border: 2px solid #000000;
     border-radius: 15px;
+}
+
+.produtos li:hover {
+    border-color: #c79c18;
+}
+
+.produtos li:hover h2 {
+    font-size: 35px;
+}
+
+.produtos li:active {
+    border-color: #088c19;
 }
 
 .produtos h2{
