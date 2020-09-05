@@ -3,9 +3,9 @@ My first website created in HTML and CSS, part of Alura course - HTML e CSS part
 
 
 
-// Esse é um projeto baseado no curso da foramção INICIANTE EM PROGRAMAÇÂO da Alura.
+// Esse é um projeto baseado no curso da formação INICIANTE EM PROGRAMAÇÂO da Alura.
 
-// Todos os textos e imgens foram fornecidos por eles no curso.
+// Nesse projeto coloquei em pratica um pouco do conhecimento obtido em html e css.
 
 // Mais informações: https://cursos.alura.com.br/formacao-programacao
 
