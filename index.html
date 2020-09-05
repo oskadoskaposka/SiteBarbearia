@@ -13,17 +13,31 @@
      strong ============== colocar em negrito e é semantico (mecanismo de busca identifica)
      em ================== colocar em italico e é semantico (mecanismo de busca identifica)
      ul ================== serve para criar uma lista de itens nao numerados (unordered list), para lista enumerada usar ol        
-     li ================== adiciona um item a lista, serve tanto para ul quanto para ol
+     li ================== adiciona um item a lista, serve tanto para ul quanto para ol0
     -->
 <!DOCTYPE html>
 <html lang="pt-br">
     <head>
         <meta charset="UTF-8">
         <title>Barbearia Alura</title>
+        <link rel="stylesheet" href="css/reset.css">
         <link rel="stylesheet" href="css/style.css">
     </head>
 
     <body>
+        <header> 
+            <div class="caixa">
+                <h1> <img src="img/logo.png"> </h1>
+            
+                <nav>
+                    <ul class="itens-navegação">
+                        <li> <a href="index.html">Home</a> </li>
+                        <li> <a href="produto.html">Produtos</a> </li>
+                        <li> <a href="contato.html">Contato</a> </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
         <div>
             <h1 class="titulo-principal"> Barbearia Alura </h1>
         </div>
@@ -43,7 +57,7 @@
         <div class="beneficios">
             <h3 class="titulo-secundario"> Beneficios </h3>
             
-            <ul>
+            <ul class="itens-beneficios">
                 <li class="itens"> Atendimento aos clientes </li>
                 <li class="itens"> Espaço diferenciado </li>
                 <li class="itens"> Localização </li>
