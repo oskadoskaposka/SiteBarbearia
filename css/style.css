@@ -38,18 +38,35 @@ form {
     width: 980px;
 }
 
-form label{
+label {
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.label-base{
     display: block;
     font-size: 20px;
     margin: 0 0 10px;
 }
 
-form input {
+.input-base {
     display: block;
     margin: 0 0 20px;
     width: 50%;
     padding: 10px 10px;
     text-transform: uppercase;
+}
+
+.divisoria {
+    margin: 0 0 30px;
+}
+
+.input-radio {
+    margin: 0 0 10px;
+}
+
+.enviar {
+    font-size: 15px;
 }
 
 .produtos {
@@ -109,3 +126,5 @@ footer {
     font-size: 10px;
     margin: 20px 0 0;
 }
+
+

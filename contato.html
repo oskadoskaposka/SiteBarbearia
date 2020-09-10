@@ -11,7 +11,7 @@
         <header> 
             <div class="caixa">
                 <h1> <img src="img/logo.png"> </h1>
-            
+                
                 <nav>
                     <ul>
                         <li> <a href="index.html">Home</a> </li>
@@ -24,16 +24,53 @@
         
         <main>
             <form action="">
-                <label for="nome-sobrenome">Nome e Sobrenome</label>
-                <input type="text" id="nome-sobrenome">
 
-                <label for="email">Email</label>
-                <input type="text" id="email">
+                <div class="divisoria">
+                    <label for="nome-sobrenome" class="label-base">Nome e Sobrenome</label>
+                    <input type="text" id="nome-sobrenome" class="input-base">
 
-                <label for="telefone">Telefone</label>
-                <input type="text" id="telefone">
+                    <label for="email" class="label-base">Email</label>
+                    <input type="text" id="email" class="input-base">
 
-                <input type="submit" value="ok">
+                    <label for="telefone" class="label-base">Telefone</label>
+                    <input type="text" id="telefone" class="input-base">
+                    
+                    <label for="mensagem" class="label-base">Mensagem</label>
+                    <textarea name="mensagem" id="mensagem" cols="70" rows="10" class="input-base"></textarea>
+                </div>
+
+                <div class="divisoria">
+                    <label class="label-base">Como prefere nosso contato?</label>
+
+                    <input type="radio" name="contato" value="email-radio" id="email-radio"class="input-radio">
+                    <label for="email-radio">Email</label>
+                    <br>
+
+                    <input type="radio" name="contato" value="telefone-radio" id="telefone-radio" class="input-radio">
+                    <label for="telefone-radio">Telefone</label>
+                    <br>
+
+                    <input type="radio" name="contato" value="whatsapp-radio" id="whatsapp-radio" class="input-radio">
+                    <label for="whatsapp-radio">Whatsapp</label>
+                    <br>
+                </div>
+
+                <div class="divisoria">
+                    <label class="label-base">Qual horário prefere ser atendido?</label>
+                    <select name="horario" id="horario">
+                        <option value="manha">Manhã</option>
+                        <option value="tarde">Tarde</option>
+                        <option value="noite">Noite</option>
+                    </select>
+                </div>
+
+                <div class="divisoria">
+                    <input type="checkbox" id="novidades"> 
+                    <label for="novidades">Gostaria de receber nossas novidades por email?</label>
+                
+                </div>
+
+                <input type="submit" value="Enviar formulário" class="enviar">
 
             </form>
         </main>
