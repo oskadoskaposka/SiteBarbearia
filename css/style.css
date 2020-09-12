@@ -67,7 +67,22 @@ label {
 }
 
 .enviar {
-    font-size: 15px;
+    font-size: 20px;
+    padding: 15px 0;
+    width: 40%;
+    background: orange;
+    color: white;
+    border: none;
+    font-weight: bold;
+    border-radius: 15px;
+    margin: 0 0 0 38px;
+    transition: 1s all;  
+    cursor: pointer;
+}
+
+.enviar:hover {
+    background: darkorange;
+    transform: scale(1.2);
 }
 
 .produtos {
