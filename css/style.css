@@ -85,6 +85,22 @@ label {
     transform: scale(1.2);
 }
 
+table {
+    margin: 30px 230px;
+}
+
+thead {
+    margin: 30px auto;
+    background-color: #666666;
+    color: white;
+    font-weight: bold;
+}
+
+td, th {
+    border: 1px solid black;
+    padding: 5px 8px;
+}
+
 .produtos {
     width: 980px;
     margin: 0 auto;
